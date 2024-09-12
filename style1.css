@@ -108,3 +108,10 @@ body {
     padding: 10px;
     border-radius: 15px;
 }
+
+/* SKILLS */
+#skills {
+    justify-self: center;
+    align-self: center;
+}
+
