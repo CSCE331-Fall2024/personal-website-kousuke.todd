@@ -15,72 +15,97 @@
         <li><a href="skills.html">Skills</a></li>
         <li><a href="community.html">Community</a></li>
     </ul>
-    <h1>Skills</h1>
-    <div id="skills">
-        <div class="skill">
-            <h1>Analog Circuits</h1>
-            <p>
-                I have previously taken ECEN 214, Introduction to Circuit Theory.
-                I learned about various topics, such as voltage and current dividers,
-                operational amplifiers, circuit configurations, and analysis techniques.
-                Later in to the semester, we learned about alternating current current and how
-                it applies to second order circuits. Now, I am taking ECEN 325, Electronics.
-                In this class, I have learned frequency analysis on low-pass and high-pass filters.
-                I am currently learning about more in-depth analysis techniques for operational amplifiers.
-            </p>
+    <div id="wrapper">
+        <h1 class="skillsHeader">Skills</h1>
+        <div id="skills">
+            <div class="skill">
+                <h2>Analog Circuits</h2>
+                <p>
+                    I have previously taken ECEN 214, Introduction to Circuit Theory.
+                    I learned about various topics, such as voltage and current dividers,
+                    operational amplifiers, circuit configurations, and analysis techniques.
+                    Later in to the semester, we learned about alternating current current and how
+                    it applies to second order circuits. Now, I am taking ECEN 325, Electronics.
+                    In this class, I have learned frequency analysis on low-pass and high-pass filters.
+                    I am currently learning about more in-depth analysis techniques for operational amplifiers.
+                </p>
+            </div>
+            <div class="skill">
+                <h2>Digital Circuits</h2>
+                <p>
+                    Having excelled in ECEN 248 (Intro to Digital System Design) and currently taking ECEN 449
+                    (Microprocessor System Design),
+                    I have experience with writing and synthesizing digital hardware. My main project was a traffic
+                    light controller. The traffic light controller was essentially a state machine which cycled through
+                    lights
+                    with different times that each color stays on. It was also responsive to signals that indicated no
+                    cars
+                    on a road, changing
+                    the cycle accordingly. This was implemented using Verilog, and synthesized on an FPGA Board.
+                </p>
+            </div>
+            <div class="skill">
+                <h2>Programming</h2>
+                <p>
+                    The programming languages that I am most familiar with are C++ and Python. In my projects page, I
+                    built
+                    an app that used the Flutter
+                    framework which uses the Dart programming language. Through building this portfolio, I have gained
+                    experience in HTML, CSS, and JavaScript.
+                    Through C++, I have implemented many data structures and algorithms. I also used it to perform
+                    system
+                    calls to spawn and run processes, threads, and
+                    network connections.
+                </p>
+            </div>
+            <div class="skill">
+                <h2>Computer Architecture</h2>
+                <p>
+                    My final project in my Computer Architecture class was building a CPU. The CPU featured an
+                    instruction
+                    fetcher, register file, ALU, data memory, and program counter logic.
+                    These components were all chained together and controlled using a controller module. We created a
+                    test
+                    bench that had the CPU read multiple 64-bit instructions stored in 16 hex digit formats. I used
+                    Verilog
+                    to synthesize the hardware and create test benches.
+                </p>
+            </div>
+            <div class="skill">
+                <h2>Verilog</h2>
+                <p>
+                    As a computer engineer, Verilog is the tool that I use the most for creating hardware. Using
+                    behavioral
+                    Verilog, which is very similar to programming, it can create large scale hardware that you do not
+                    need
+                    to design yourself. Synthesizers will take behavioral Verilog, and create a digital circuit from it.
+                    This makes designing hardware efficient, due to not having to design the smaller building blocks of
+                    your
+                    design. Using Verilog, I have created a traffic light controller and CPU.
+                </p>
+            </div>
+            <div class="skill">
+                <h2>Speaking</h2>
+                <p>
+                    For the past two years as Culture Officer of Japanese Cultural Association, I have created weekly
+                    presentations, and presented them to an audience of over 30 people. Through this, I have developed a
+                    strong foundation in public speaking.
+                </p>
+            </div>
+
         </div>
-        <div class="skill">
-            <h1>Digital Circuits</h1>
-            <p>
-                Having excelled in ECEN 248 (Intro to Digital System Design) and currently taking ECEN 449
-                (Microprocessor System Design),
-                I have experience with writing and synthesizing digital hardware. My main project was a traffic
-                light controller. The traffic light controller was essentially a state machine which cycled through
-                lights
-                with different times that each color stays on. It was also responsive to signals that indicated no cars
-                on a road, changing
-                the cycle accordingly. This was implemented using Verilog, and synthesized on an FPGA Board.
-            </p>
+
+        <div id="resume">
+            <h1>Resume</h1>
+            <img src="resume.png">
         </div>
-        <div class="skill">
-            <h1>Programming</h1>
-            <p>
-                The programming languages that I am most familiar with are C++ and Python. In my projects page, I built
-                an app that used the Flutter
-                framework which uses the Dart programming language. Through building this portfolio, I have gained
-                experience in HTML, CSS, and JavaScript.
-                Through C++, I have implemented many data structures and algorithms. I also used it to perform system
-                calls to spawn and run processes, threads, and
-                network connections.
-            </p>
-        </div>
-        <div class="skill">
-            <h1>Computer Architecture</h1>
-            <p>
-                My final project in my Computer Architecture class was building a CPU. The CPU featured an instruction
-                fetcher, register file, ALU, data memory, and program counter logic.
-                These components were all chained together and controlled using a controller module. We created a test
-                bench that had the CPU read multiple 64-bit instructions stored in 16 hex digit formats. I used Verilog
-                to synthesize the hardware and create test benches.
-            </p>
-        </div>
-        <div class="skill">
-            <h1>Verilog</h1>
-            <p>
-                As a computer engineer, Verilog is the tool that I use the most for creating hardware. Using behavioral
-                Verilog, which is very similar to programming, it can create large scale hardware that you do not need
-                to design yourself. Synthesizers will take behavioral Verilog, and create a digital circuit from it.
-                This makes designing hardware efficient, due to not having to design the smaller building blocks of your
-                design. Using Verilog, I have created a traffic light controller and CPU.
-            </p>
-        </div>
-        <div class="skill">
-            <h1>Speaking</h1>
-            <p>
-                For the past two years as Culture Officer of Japanese Cultural Association, I have created weekly
-                presentations, and presented them to an audience of over 30 people. Through this, I have developed a
-                strong foundation in public speaking.
-            </p>
+        <div id="interests">
+            <h1>Interests</h1>
+            <p>My main interest in Computer Science lies in computer systems. As a computer engineer, I like to be
+                closer to
+                hardware. Through the use of system calls, I really enjoy being able to have more direct control over
+                the
+                hardware of a computer.</p>
         </div>
 
     </div>

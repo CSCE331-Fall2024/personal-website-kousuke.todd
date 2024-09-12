@@ -3,6 +3,15 @@ body {
     background-color: #747474;
 }
 
+h1 {
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+                         1px 1px 0 #000,
+                         1px -1px 0 #000,
+                         -1px -1px 0 #000;
+    font-size: 3em
+}
+
 #homepageBackground {
     height: 98%;
     width: 100%;
@@ -33,6 +42,8 @@ body {
     font-size: 1.5em;
     padding: 10px;
     border-radius: 15px;
+    border-style: solid;
+    border-color: black;
 }
 
 #homepageContent {
@@ -84,7 +95,9 @@ body {
     margin-left: 25px;
     margin-top: 50px;
 }
-#projects h1,  #projects h2 {
+
+#projects h1,
+#projects h2 {
     color: #FFFFFF;
 }
 
@@ -111,7 +124,98 @@ body {
 
 /* SKILLS */
 #skills {
-    justify-self: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 5cap;
+}
+
+.skill {
+    width: 500px;
+    border-color: black;
+    border-style: solid;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.skill h1 {
+    border-bottom: solid;
+    padding-bottom: 5px;
+}
+
+.skillsHeader {
+    position: relative;
     align-self: center;
+}
+
+#wrapper {
+    justify-content: center;
+    margin-left: 5%;
+}
+
+#resume {
+    margin-right: 75px;
+    display: inline-block;
+}
+
+#interests {
+    display: inline-block;
+    position: absolute;
+}
+
+#interests p {
+    float: left;
+    width: 400px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 15px
+}
+
+/* Community */
+
+#community {
+    margin-top: 5%;
+}
+
+#volunteerTitle {
+    display: inline;
+    position: relative;
+    left: 10%;
+    bottom: 200px;
+    font-size: 4em;
+}
+
+.communityCard {
+    background-color: white;
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+.communityCard p {
+    width: 100%;
+    text-align: center;
+}
+
+.communityCard h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.communityCard img {
+    width: 100%;
+}
+
+#concessions {
+    margin-left: 5%;
+    display: inline-block;
+}
+
+#bigevent {
+    margin-left: 55%
 }
 
