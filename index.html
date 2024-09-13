@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style1.css">
+    <link id="style" rel="stylesheet" href="style1.css">
+    <script src="toggle.js"></script>
 </head>
 
 <body>
@@ -15,18 +16,24 @@
         <li><a href="projects.html">Projects</a></li>
         <li><a href="skills.html">Skills</a></li>
         <li><a href="community.html">Community</a></li>
+        <li><a href="ai.html">AI Page</a></li>
+        <button class="togglebtn" onclick="toggle()">Toggle</button>
     </ul>
     <img src="homepageBackground.png" id="homepageBackground">
     <div id="homepageContent">
         <img src="dummy.jpeg" id="headshot">
-        <h1>Kousuke Todd</h1>
-        <p id="biography">Howdy! My name is Kousuke, but you can just call me Ko. I am a Computer Engineering major at
-            Texas
-            A&M University. <br> <br>
-            My interests lie in computer systems (OS), as well as digital circuits (Microprocessors). <br> <br>
-            If you would like to learn more about me, please visit the pages in the navigation bar above! <br> <br>
-            I have featured my skills, projects, and volunteer work. </p>
+            <h1 class="homepageText">Kousuke Todd</h1>
+            <p id="biography" class="homepageText">Howdy! My name is Kousuke, but you can just call me Ko. I am a Computer Engineering major at
+                Texas
+                A&M University. <br> <br>
+                My interests lie in computer systems (OS), as well as digital circuits (Microprocessors). <br> <br>
+                If you would like to learn more about me, please visit the pages in the navigation bar above! <br> <br>
+                I have featured my skills, projects, and volunteer work. </p>
     </div>
+    <ul class="links" id="homeLinks">
+        <li><a href="https://www.instagram.com/kousuke.todd">Instagram</a></li>
+        <li><a href="www.linkedin.com/in/kousuke-todd">LinkedIn</a></li>
+    </ul>
 
 </body>
 

@@ -1,0 +1,173 @@
+h1 {
+    color: #6F1D1B;
+    font-size: 3em
+}
+
+body {
+    background-color: #F3E9DC;
+    font-family: 'American Typewriter', monospace;
+}
+
+p {
+    color: #432818;
+    font-size: 1.5em;
+}
+
+.navbar {
+    background-color: #432818;
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.navbar li {
+    float: left;
+    margin-right: 100px;
+}
+
+.navbar li:last-child {
+    margin-right: 0px;
+}
+
+.navbar li a {
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    color: #F3E9DC;
+}
+
+.navbar li a:hover {
+    background-color: #301c11
+}
+
+.togglebtn {
+    background-color: white;
+    border-radius: 15px;
+    height: 45px;
+    width: 80px;
+}
+
+#homepageBackground {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 75%;
+}
+
+#headshot {
+    width: 500px;
+    border-radius: 15%;
+}
+
+#homepageContent {
+    margin-top: 20px;
+}
+
+.homepageText {
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+}
+
+.homepageText h1 {
+    margin-bottom: 10px;
+}
+
+#biography {
+    top: 250px;
+    width: 800px;
+    background-color: #F3E9DC;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inventory img {
+    width: 800px;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+#inventory p {
+    display: inline-block;
+    position: absolute;
+    background-color: #C08552;
+    border-radius: 15px;
+    padding: 20px;
+    width: 500px;
+}
+
+#skills {
+    display: inline-block;
+}
+
+#resume {
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 120px;
+}
+
+#interests {
+    position: absolute;
+    display: inline-block;
+    right: 240px;
+    top: 1200px;
+    width: 500px;
+}
+
+#interests p {
+    background-color: #C08552;
+    border-radius: 15px;
+    padding: 20px;
+    width: 500px;
+}
+
+.skill {
+    background-color: #C08552;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    border-radius: 25px;
+}
+
+.skill h2 {
+    border-bottom: solid;
+}
+
+.communityCard {
+    background-color: #C08552;
+    width: 35%;
+    display: inline-block;
+    height: 600px;
+    padding-bottom: 20px;
+}
+
+#volunteerTitle {
+    display: inline;
+    position: absolute;
+    text-align: center;
+}
+
+#volunteerLinks {
+    display: inline;
+    position: absolute;
+    top: 200px;
+}
+
+.communityCard img {
+    width: 100%;
+}
+
+#bigevent {
+    position: absolute;
+    right: 0;
+}
